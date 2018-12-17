@@ -10,6 +10,8 @@
 
 Uses [`Preact`](https://github.com/developit/preact), [`react-images`](https://github.com/jossmac/react-images) for lightbox, [`parcel`](https://github.com/parcel-bundler/parcel) for bundling and a `Gallery` component from a previous project of mine.
 
+![circus-gallery demo image](https://raw.githubusercontent.com/petoem/circus-gallery/master/demo.gif)
+
 ## Installation
 
 Embed the `dist/circus.js` file into your document.
