@@ -1,0 +1,64 @@
+<style>
+  * {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  }
+</style>
+
+<div id="root"></div>
+<script src="dist/circus.js"></script>
+<script type="text/javascript">
+  circusGallery.create(document.getElementById('root'), [
+    {
+      title: "Random example",
+      images: [
+        {
+          src: "https://source.unsplash.com/random?1",
+          caption: "Random 1",
+          alt:"1"
+        },
+        {
+          src: "https://source.unsplash.com/random?2",
+          caption: "Random 2",
+          alt:"2"
+        },
+        {
+          src: "https://source.unsplash.com/random?3",
+          caption: "Random 3",
+          alt:"3"
+        },
+        {
+          src: "https://source.unsplash.com/random?4",
+          caption: "Random 4",
+          alt:"4"
+        },
+        {
+          src: "https://source.unsplash.com/random?5",
+          caption: "Random 5",
+          alt:"5"
+        },
+        {
+          src: "https://source.unsplash.com/random?6",
+          caption: "Random 6",
+          alt:"6"
+        }
+      ]
+    },
+    {
+      title: "Some more example images",
+      images: [
+        {
+          src: "https://source.unsplash.com/random?7",
+          caption: "More 1",
+          alt:"1"
+        },
+        {
+          src: "https://source.unsplash.com/random?8",
+          caption: "More 2",
+          alt:"2"
+        }
+      ]
+    }
+  ])
+</script>

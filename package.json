@@ -1,0 +1,53 @@
+{
+  "name": "circus-gallery",
+  "version": "1.0.0",
+  "description": "embeddable image gallery",
+  "main": "src/circus.js",
+  "scripts": {
+    "start": "parcel src/circus.js --no-cache",
+    "build": "parcel build src/circus.js --public-url ./ --detailed-report --global circusGallery && rm dist/report.html",
+    "dev": "parcel example.html --no-cache --global circusGallery",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "alias": {
+    "react": "preact-compat",
+    "react-dom": "preact-compat"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petoem/circus-gallery.git"
+  },
+  "keywords": [
+    "image",
+    "gallery",
+    "lightbox"
+  ],
+  "author": "Michael Petö <michael@petoe.me> (http://petoe.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petoem/circus-gallery/issues"
+  },
+  "homepage": "https://github.com/petoem/circus-gallery#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-jsx-pragmatic": "^1.0.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-preact": "^1.1.0",
+    "parcel-bundler": "^1.10.3",
+    "parcel-plugin-bundle-visualiser": "^1.2.0",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "aphrodite": "^0.5.0",
+    "preact": "^8.3.1",
+    "preact-compat": "^3.18.4",
+    "promise-polyfill": "^8.1.0",
+    "react-images": "^0.5.19"
+  }
+}

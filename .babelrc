@@ -1,0 +1,13 @@
+{
+    "presets": ["env", "preact"],
+    "plugins": [
+      ["transform-object-rest-spread"],
+      ["transform-class-properties"],
+      ["babel-plugin-jsx-pragmatic", {
+        "module": "preact",
+        "import": "h",
+        "export": "h"
+      }]
+    ]
+  }
+  
